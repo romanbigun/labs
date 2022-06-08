@@ -1,0 +1,211 @@
+.main_block{
+    margin: 0px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 650px;
+    height: 500px;
+    display: block;
+}
+.main_block h3{
+    text-align: center;
+    width: auto;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.content_block{
+    border: 1px solid rgb(199, 199, 199);
+    max-width: 642px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-left: none;
+
+}
+
+.arrow{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(199, 199, 199);
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    color: rgb(199, 199, 199);
+    z-index: 10;
+    cursor: pointer;
+    
+}
+.left_arrow {
+    left: -12px;
+    top: 69px;
+}
+.right_arrow{
+    right: -12px;
+    top: 69px;
+}
+
+.container{
+
+    border-left: 1px solid rgb(199, 199, 199);
+    height: 400px;
+    max-width: 160px;
+    float: left;
+   
+    text-align: center;
+    position: relative;
+}
+.type{
+width: 139px;
+height: 50px;
+border-bottom: 1px solid rgb(199, 199, 199);
+padding-top: 30px;
+margin-left: 10px;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.type a{
+    width: 139px;
+    height: 50px;
+    text-decoration: none;
+    color: #a0a5aa;
+    
+}
+.type:hover, .arrow:hover{
+   
+    background: radial-gradient(rgb(224, 224, 224),white);
+cursor: pointer;
+}
+.circle_type{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #86b022;
+    border: 2px solid #fff;
+    right: 5px;
+    top: -25px;
+    color: #fff;
+    cursor: pointer;
+}
+.circle_type:hover {
+    background: radial-gradient(#86b022, #a4db23);
+    cursor: pointer;
+}
+.sticker_style{
+    margin: 0;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)  
+}
+.hit_sales{
+    background-color: #009de1;
+}
+.hit_sales:hover {
+    background: radial-gradient(#009de1, #54b4dd);
+    cursor: pointer;
+}
+.product_information{
+   
+    height: 318px;
+    position: relative;
+}
+.product_information a{
+text-decoration: none;
+}
+
+.to_cart{
+        width: 100px;
+        max-height: 40px;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        background-color: #f0e524;
+    padding-top: 15px;
+    padding-bottom: 15px;
+        
+}
+.to_cart:hover{
+    background: radial-gradient(#f0e524, #eceac5);
+   
+}
+.not_available{
+    background-color: #cc3399;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.not_available:hover {
+    background: radial-gradient(#cc3399, #e9afd5);
+}
+.text_style{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 0px;
+}
+.white_text{
+    float: center;
+    color: #fff;
+}
+.black_text{
+    color: black;
+    
+}
+.name_block{
+    position: absolute;
+    max-height: 55px;
+    width: 120px;
+    bottom: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.product_name{
+    font-style: bold;
+}
+
+.block_image{
+    margin-top: 10px;
+    max-height: 150px;
+    max-width: 150px;
+    height: 120px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.block_image:hover {
+    height: 140px;
+    box-shadow: 6px 6px 6px 6px rgb(209, 163, 163);
+    border-radius: 10px;
+}
+
+.price_block{
+
+    width: 100px;
+    max-height: 40px;
+    position: absolute;
+    bottom: 65px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.old_block{
+    bottom: 55px;
+}
+.old_price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 0px;
+    text-decoration: line-through;
+
+}
